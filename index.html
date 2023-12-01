@@ -7,9 +7,48 @@
     <title>SPIRIT_QuickTechLearn</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
-  
+
+
+
+ <style>
+    #top-section {
+      display: flex;
+      align-items: center;
+    }
+
+    .logo img {
+      max-width: 100px; /* Adjust the max-width as needed */
+    }
+
+    .top-section-text {
+      margin-left: 20px; /* Adjust the margin as needed */
+    }
+  </style>
+
+    
+
+    
   </head>
   <body>
+
+      <section id="top-section">
+    <div class="logo">
+      <img src="./assets/logo.png" alt="Spirit Logo" />
+    </div>
+    <div class="top-section-text">
+      <p class="section__text__p1">Hello, We are from spirit</p>
+      <h1 class="title">QuickTechLearn_Trainer</h1>
+      <div class="btn-container">
+        <button class="btn btn-color-2" onclick="window.open('./assets/resume-example.pdf')">
+          Download PYTHON CONCEPTS
+        </button>
+        <button class="btn btn-color-1" onclick="location.href='./#contact'">
+          Contact Info
+        </button>
+      </div>
+    </div>
+  </section>
+    
     <nav id="desktop-nav">
       <div class="logo">LEARN PYTHON FROM SPIRIT</div>
       <div>
