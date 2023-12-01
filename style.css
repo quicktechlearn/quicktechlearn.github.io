@@ -320,3 +320,30 @@ section {
   position: relative;
 }
 
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8; /* Background color for the entire page */
+  color: #333; /* Text color */
+}
+
+.important-reminder {
+  color: #ff5733; /* Text color for the important reminder heading */
+  font-weight: bold; /* Bold text for the heading */
+}
+
+.course-price {
+  color: #4caf50; /* Text color for the course price */
+}
+
+.price-highlight {
+  color: #e74c3c; /* Text color for highlighting the price */
+  font-weight: bold; /* Bold text for the highlighted price */
+}
+
+.course-description, .swags-info {
+  color: #333; /* Text color for the course description and swags info */
+}
+
