@@ -365,3 +365,17 @@ body {
 }
 
 
+
+
+.highlighted-text {
+  background-color: #ffeeba; /* Set the background color for the highlighted text */
+  padding: 10px; /* Add padding for better visibility */
+}
+
+.highlighted-link {
+  text-decoration: none; /* Remove underline from the link */
+  color: #007bff; /* Set the text color for the link */
+  background-color: #f0f8ff; /* Set the background color for the link */
+  padding: 10px; /* Add padding for better visibility */
+  display: inline-block; /* Ensure the link behaves like a block element */
+}
