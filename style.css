@@ -329,9 +329,26 @@ body {
   color: #333; /* Text color */
 }
 
+.scrolling-container {
+  width: 100%; /* Set the width of the scrolling container */
+  overflow: hidden; /* Hide the overflow content */
+}
+
 .important-reminder {
   color: #ff5733; /* Text color for the important reminder heading */
   font-weight: bold; /* Bold text for the heading */
+  white-space: nowrap; /* Prevent text from wrapping */
+  overflow: hidden; /* Hide the overflow content */
+  animation: scrollText 10s linear infinite; /* Add a scrolling animation */
+}
+
+@keyframes scrollText {
+  from {
+    transform: translateX(100%); /* Start off-screen to the right */
+  }
+  to {
+    transform: translateX(-100%); /* Move off-screen to the left */
+  }
 }
 
 .course-price {
@@ -346,4 +363,5 @@ body {
 .course-description, .swags-info {
   color: #333; /* Text color for the course description and swags info */
 }
+
 
